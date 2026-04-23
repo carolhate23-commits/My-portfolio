@@ -3,14 +3,15 @@ import streamlit as st
 st.markdown("""
 <style>
 [data-testid="stSidebar"] {
-    background-color: green;
+    background-color:pink;
 }
 [data-testid="stSidebar"] * {
-    color: white;
+    color: black;
 }
 .stApp {
-   background-color: aliceblue;
-}   
+   background-color:lightblue;
+}  
+
 .main {
     text-align: center;
 }
@@ -33,11 +34,11 @@ img {
 }
 </style>
 """, unsafe_allow_html=True)
-st.title("🏠 :orange[Home]")
-st.image("IMG_20250916_145435.jpg",width=200)
+st.title("🏠 :green[Home]")
+st.image("IMG_20220912_221528.jpg",width=200,)
 
-st.header("Hello, I'm Caren")
-st.write("I'm Computer Science Student in DEBESMSCAT")
+st.header("Hi, I'm Carol")
+st.write("I'm Computer Science Student at DEBESMSCAT")
 
 
 st.info("Welcome to my portfolio!")
